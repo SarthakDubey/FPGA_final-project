@@ -1,0 +1,14 @@
+library IEEE;
+USE IEEE.std_logic_1164.all;
+
+PACKAGE tank_parameter IS
+CONSTANT T_SIZE   : INTEGER := 30;
+CONSTANT C_LENGTH : INTEGER := 20;
+CONSTANT C_WIDTH  : INTEGER := 14;
+CONSTANT B_WIDTH  : INTEGER := 5;
+CONSTANT BULLET_TRAVEL : INTEGER := 8;
+
+END PACKAGE tank_parameter;
+PACKAGE BODY tank_parameter IS
+
+END PACKAGE BODY tank_parameter;
